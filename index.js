@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/test', (req, res)=>{
 
-  return res.json({hello: 'world'});
+  return res.json({hello: 'world 2'});
 });
 
 app.listen(3333);
